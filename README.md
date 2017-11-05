@@ -1,6 +1,6 @@
 # Pima CC CIS265 Week #15 Project B
 
-Instead of the passing the locale (i.e. "fi_FI") as a command line please prompt the user to enter the locale. If it's valid, display the output as described in the exercise. If not, display a message saying that the locale is not valid and then prompt again till user chooses to quit the program.
+Instead of passing the locale (i.e. "fi_FI") as a command line prompt the user to enter the locale. If it's valid, display the output as described in the exercise. If not, display a message saying that the locale is not valid and then prompt again till user chooses to quit the program.
 
 Write a program that obtains the name of a locale from the command line and then displays the values stored in the corresponding lconv structure. For example, if the locale is “fi_FI” (Finland), the output of the program might look like this:
 ```Text
