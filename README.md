@@ -15,7 +15,9 @@ Write a program that obtains the name of a locale from the command line and then
 For readability, the characters in the `grouping` and `mon_grouping` should be displayed as decimal numbers.
 
 Notes:
-1. The MS version seems to accept almost any input, however it does seem to perform validity checks on longer strings.
+1. The MSVC version seems to accept almost any input, however it does seem to perform validity checks on longer strings.
 2. Because of this, I perform almost no validity checks on the input, and allow the `setlocale` function to have at it.
-3. Do to the odd nature of the MS version (see note 1), I decided to write 2 versions of the program (MSVC and GNU GCC).
+3. Due to the odd nature of the MS version (see note 1), I decided to write 2 versions of the program (MSVC and GNU GCC).
 4. Compiled with MS Visual Studio 2017 Community (v141) and Eclipse GCC 5.3.0, using C language options.
+
+*Submitted in partial fulfillment of the requirements of PCC CIS-265.*
